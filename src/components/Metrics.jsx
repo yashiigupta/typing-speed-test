@@ -1,19 +1,23 @@
 const Metrics = () => {
   return (
-    <div className="flex justify-between items-center">
-      <div className="flex gap-3">
-        <p className="text-[#949497]">WPM: </p>
-        <p className="text-[#FFF] lg:font-[24px] font-bold ml-3">0</p>
+    <div className="flex items-center lg:gap-6">
+      <div className="flex items-center lg:gap-3">
+        <p className="text-[#949497] text-center lg:text-xl lg:tracking-[-0.6px] lg:leading-6">WPM: </p>
+        <p className="text-[#FFF] text-center lg:text-2xl lg:leading-6 font-bold">40</p>
       </div>
-      <div className="text-[#3A3A3A] w-[1px] mx-6">|</div>
-       <div className="flex gap-3">
-        <p className="text-[#949497]">Accuracy: </p>
-        <p className="text-[#FFF] lg:font-[24px] font-bold ml-3">100%</p>
+
+      <div className="bg-[#3A3A3A] w-[1px]">|</div>
+
+      <div className="flex items-center lg:gap-3">
+        <p className="text-[#949497] text-center lg:text-xl lg:tracking-[-0.6px] lg:leading-6">Accuracy:</p>
+        <p className="text-[#FFF] text-center lg:text-2xl lg:leading-6 font-bold">94%</p>
       </div>
-      <div className="text-[#3A3A3A] w-[1px] mx-6">|</div>
-       <div className="flex gap-3">
-        <p className="text-[#949497]">Time: </p>
-        <p className="text-[#FFF] lg:font-[24px] font-bold ml-3">0:60</p>
+
+      <div className="bg-[#3A3A3A] w-[1px]">|</div>
+
+      <div className="flex items-center lg:gap-3">
+        <p className="text-[#949497] text-center lg:text-xl lg:tracking-[-0.6px] lg:leading-6">Time: </p>
+        <p className="text-[#FFF] text-center lg:text-2xl lg:leading-6 font-bold">0:46</p>
       </div>
     </div>
   )

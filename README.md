@@ -1,70 +1,155 @@
-# Getting Started with Create React App
+# 🚀 Typing Speed Test — Frontend Mentor Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my solution to the [Typing Speed Test challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/typing-speed-test).  
+Frontend Mentor challenges help developers improve real-world frontend skills by building projects from professional designs.
 
-## Available Scripts
+This project is being developed **individually**, with a strong focus on **pixel-perfect UI**, **responsiveness**, and **clean layout architecture**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My Process](#my-process)
+  - [Day-by-Day Progress](#day-by-day-progress)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Challenges Faced](#challenges-faced)
+  - [Continued Development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The Challenge
 
-### `npm run build`
+Users should be able to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- View the optimal layout for the interface depending on their device’s screen size
+- Experience smooth transitions between different test states
+- Interact with a clean and distraction-free typing interface
+- See clear visual feedback for typing statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshots
 
-### `npm run eject`
+1. <img src="./progress-images/desktop-open.png" alt="Typing Speed Test" width="400" />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📸 More Screenshots will be added once the first fully responsive version is complete.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Links
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Solution URL:** _To be added_
+- **Live Site URL:** _To be added_
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## My Process
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is being built incrementally, with an emphasis on **understanding the design deeply**, writing **scalable UI code**, and solving layout challenges properly rather than using quick fixes.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Day-by-Day Progress
 
-### Analyzing the Bundle Size
+#### **Day 1 — Project Setup & Foundations**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+On the first day, I focused on laying a strong foundation for the project.
 
-### Making a Progressive Web App
+**What I worked on:**
+- Set up the React application
+- Added all required SVGs, icons, and assets
+- Configured Tailwind CSS
+- Organized a clean and scalable folder structure
+- Began writing base styles using Tailwind
+- Started implementing the desktop “not started” page
+- Explored strategies for adding responsiveness for mobile and tablet
+- Created initial components such as the header and statistics metrics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Key takeaway:**  
+Building a clean structure early makes complex UI work much easier later.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### **Day 2 — Pixel-Perfect Desktop & Figma Mastery**
 
-### Deployment
+This day was dedicated to precision and design accuracy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**What I worked on:**
+- Created a pixel-perfect laptop (desktop) layout matching the Figma design
+- Built all required components for:
+  - Desktop “not started” page
+  - Desktop “started” page
+- Began implementing the tablet layout
+- Spent significant time understanding spacing, typography, and layout constraints from Figma
+- Improved my ability to translate design tokens into Tailwind utilities
 
-### `npm run build` fails to minify
+**Big learning:**  
+I became much more confident in reading and interpreting Figma designs instead of relying on guesswork.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+> 📝 This section will be updated daily to document progress, learnings, and challenges throughout the project.
+
+---
+
+### Built With
+
+- React
+- Tailwind CSS
+- Figma (design reference)
+
+---
+
+### What I Learned
+
+- How to build no-scroll, full-screen layouts correctly
+- Why margins can cause overflow in fixed-height layouts
+- How to use Flexbox, `flex-1`, and `gap` instead of stacking margins
+- How Tailwind’s mobile-first breakpoints work in practice
+- How to read spacing and layout rules accurately from Figma
+
+---
+
+### Challenges Faced
+
+- Preventing vertical overflow while maintaining visual balance
+- Handling responsiveness without duplicating components
+- Translating design-system spacing into Tailwind utilities
+- Debugging layout issues caused by `h-screen` combined with margins
+- Maintaining pixel perfection across screen sizes
+
+---
+
+### Continued Development
+
+Planned next steps:
+- Complete tablet and mobile layouts
+- Implement typing logic and state management
+- Improve accessibility and keyboard interactions
+- Add subtle animations and polish
+- Optimize performance and overall UX
+- Finalize screenshots and live deployment
+
+---
+
+## 👩‍💻 Author
+
+- **Name:** Yashi Gupta  
+- **Frontend Mentor:** _To be added_  
+- **Portfolio:** _To be added_
+
+---
+
+## 🙏 Acknowledgments
+
+- Frontend Mentor for providing well-designed real-world challenges
+- The developer community for resources and discussions around layout, Tailwind, and responsiveness
