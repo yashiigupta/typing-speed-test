@@ -1,4 +1,4 @@
-import undo from '../assets/images/icon-restart.svg';
+import undo from '../../assets/icons/icon-restart.svg';
 
 const RestartTest = () => {
   return (
